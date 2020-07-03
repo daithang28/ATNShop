@@ -1,0 +1,15 @@
+<html>
+    <%- include('partials/header') -%>
+    <body>
+        <div class="card h-10 alert alert-primary ">
+            <H2 class="mx-auto "> Login page </H2>
+            <form action="login" class="mx-auto">
+                <P>Username: <input type="text" name="username"></P>
+                <P>Password: <input type="password" name="password"></P>
+                <P><input type="submit" value="Login"></P>
+            </form>
+            <P> Msg: <%=mesg%> </P>
+        </div>
+        <%- include('partials/footer') -%>
+    </body>
+</html>
